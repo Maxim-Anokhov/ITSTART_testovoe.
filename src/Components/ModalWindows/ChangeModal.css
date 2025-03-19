@@ -1,0 +1,36 @@
+.ChangeModal {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.ChangeModalActiv {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    visibility: visible;
+}
+
+
+.Modal {
+    width: 40%;
+    height: 40%;
+    background-color: beige;
+    border-radius: 10px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
